@@ -1,0 +1,17 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Ambio API Testing</title>
+</head>
+<body>
+    <a href="./index.html">Home</a>
+    <p>This test sends a post request to /random that has the field listed in the post body. </p>
+  <section id="hit404">
+    <form id="404Form" name="404Form" action="http://localhost:3000/random" method="POST">
+      <label for="name">Name: </label>
+      <input id="varName" type="text" name="name" placeholder="varName"/>
+      <input class="submit" type="submit" value="Send Test" />
+    </form>
+  </section>
+</body>
+</html>
