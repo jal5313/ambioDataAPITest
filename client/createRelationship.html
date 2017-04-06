@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Ambio API Testing</title>
+    <style>
+        label {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <a href="./index.html">Home</a>
+    <p>This test sends a post request to /createRelationship, this request will contain all the info needed to create a new relationship.  </p>
+  <section id="createRelationshipSection">
+    <form id="createRelationshipForm" name="createRelationshipForm" action="http://localhost:3000/createRelationship" method="POST">
+      <label for="userId">User Id: </label>
+      <input id="userIdInput" type="text" name="userId" placeholder="00000001"/>
+      <label for="followingId">Following Id: </label>
+      <input id="followingIdInput" type="text" name="follwingId" placeholder="00000002"/>
+    </form>
+  </section>
+</body>
+</html>
