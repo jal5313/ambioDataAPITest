@@ -10,17 +10,13 @@
 </head>
 <body>
     <a href="./index.html">Home</a>
-    <p>This test sends a post request to /createUser, this request will contain all the info needed to create a new user.  </p>
-  <section id="createUserSection">
-    <form id="createUserForm" name="createUserForm" action="http://localhost:3000/createUser" method="POST">
+    <p>This test sends a post request to /createAccount, this request will contain all the info needed to create a new user.  </p>
+  <section id="createAccountSection">
+    <form id="createAccountForm" name="createAccountForm" action="http://localhost:3000/createAccount" method="POST">
       <label for="userName">User Name: </label>
       <input id="userNameInput" type="text" name="userName" placeholder="johnSmith01"/>
       <label for="email">Email: </label>
-      <input id="emailInput" type="text" name="email" placeholder="john.smith@mail.com"/>
-      <label for="password">Password: </label>
-      <input id="passwordInput" type="text" name="password" placeholder="*********"/>
-      <label for="confirmPassword">Confirm Password: </label>
-      <input id="confirmPasswordInput" type="text" name="confirmPassword" placeholder="*********"/>
+      <input id="emailInput" type="text" name="email" placeholder="john.smith@mail.com"/> placeholder="*********"/>
       <label for="email">Email: </label>
       <input id="emailInput" type="text" name="email" placeholder="johnSmith01"/>
       <label for="firstName">First Name: </label>
@@ -29,7 +25,7 @@
       <input id="lastNameInput" type="text" name="lastName" placeholder="smith"/>
       <label for="dateOfBirth">Date of Birth: </label>
       <input id="dateOfBirthInput" type="text" name="dateOfBirth" placeholder="01/01/1901"/>
-      <input class="submit" type="submit" value="Create User" />
+      <input class="submit" type="submit" value="Create Account" />
     </form>
   </section>
 </body>
